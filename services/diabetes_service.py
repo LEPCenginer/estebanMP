@@ -7,7 +7,7 @@ with open('RFDiabetesv132.pkl', 'rb') as file:
     model = pickle.load(file)
 
 labels = ["sano", "enfermo"]
-#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
+
 def diabetes_prediction(data: PatientData):
     xin = np.array([
         data.pregnancies,
